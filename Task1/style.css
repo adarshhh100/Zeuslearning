@@ -1,0 +1,68 @@
+.frame{
+    display:flex;
+    width: 457px;
+    height: 138px;
+    background-color:white);
+    margin: 4px;
+}
+.content{
+    display:flexbox;
+    background-color:white;
+}
+
+
+.pp{
+    width: 130px;
+    height: 130px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left:4px;
+    
+}
+.name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 14px;
+    margin-top: 18.5px;
+}
+.desc{
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: Regular;
+    color: #000000;
+    margin-top: -10px;
+    margin-left: 14px;
+    margin-bottom: 14px;
+}
+.comment{
+    display:inline;
+    width: 20px;
+    height: 20px;
+    margin-left: 14px;
+}
+
+.retweet{
+    display:inline;
+    width: 20px;
+    height: 20px;
+}
+.like{
+    display:inline;
+    width: 20px;
+    height: 20px;
+}
+.k{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: Medium;
+    color: #858991;
+    margin-left: 14px;
+    margin-right: 24px;
+
+
+
+}
