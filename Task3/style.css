@@ -1,0 +1,53 @@
+.Container{
+    display: grid;
+    height: 100px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-gap: 2px;
+}
+.Header{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-color: rgba(127,105,222,255);
+    text-align: center;
+    padding:50px;
+}
+.Sidebar{
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-color: rgba(50,190,182,255);
+    text-align: center;
+    padding:200px;
+   
+}
+.Content1{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    background-color: rgba(60,135,239,255);
+    text-align: center;
+    padding:100px;
+}
+.Content2{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: rgba(60,135,239,255);
+    text-align: center;
+    padding:100px;
+}
+.Content3{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: rgba(60,135,239,255);
+    text-align: center;
+    padding:100px;
+}
+.Footer{
+    grid-column: 1/4;
+    grid-row: 4/5;
+    background-color: rgba(127,105,222,255);
+    text-align: center;
+    padding:50px;
+}
+div{
+    color: white;
+}
