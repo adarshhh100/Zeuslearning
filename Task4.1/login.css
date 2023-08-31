@@ -1,0 +1,229 @@
+body {
+    top: 0px;
+    left: 0px;
+    width: 1024px;
+    height: 798px;
+    background-color: #EEEEEE;
+
+}
+.head {
+    display: inline;
+    font-family: "Quicksand", sans-serif;
+  }
+.heading {
+    display: inline;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    top: 0px;
+    height: 47px;
+    left: 0px;
+    right: 0px;
+    background-color: black;
+    filter: brightness(50%);
+    opacity: 1;
+
+}
+.logoimage {
+    display: inline;
+    top: 5px;
+    left: 24px;
+    width: 134px;
+    height: 36px;
+    bottom: 759.36px;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    border-style: hidden;
+    opacity: 1;
+    position: relative;
+    box-sizing: border-box;
+}
+.back {
+    display: inline;
+    margin-left: 32px;
+    margin-top: 22px;
+}
+.main {
+    margin-top: -20px;
+    margin-bottom: 140px;
+    margin-left: 35%;
+    margin-right: 35%;
+    top: 108px;
+    width: 488px;
+    height: 550px;
+/* UI Properties */
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #ffffff;
+    opacity: 1;
+    position: absolute;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    border-top: #3ac7ec solid 5px;
+    display: flexbox;
+}
+.mainword {
+    top: 128px;
+    margin-left: 77px;
+    width: 236px;
+    height: 30px;
+    display: inline;
+    text-align: center;
+    font: normal normal medium;
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    letter-spacing: 0px;
+    color: #222222;
+    opacity: 1;
+}
+.main input[type="text"],
+input[type="text"] {
+    border: none;
+    background: transparent;
+    display: block;
+    margin-left: 32px;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 32px;
+}
+.main label[for="State"] {
+    display: block;
+    color: #666;
+    font-size: 15px;
+    top: 273px;
+    margin-top: 16px;
+    margin-left: 32px;
+    margin-bottom: 6px;
+    font-family: "Quicksand", sans-serif;
+    }
+.main label[for="District"] {
+    display: block;
+    color: #666;
+    font-size: 15px;
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-bottom: 6px;
+    font-family: "Quicksand", sans-serif;
+}
+.main select {
+    border: none;
+    background: transparent;
+    margin-left: 32px;
+    font-family: "Quicksand", sans-serif;
+    }
+
+.main input[type="checkbox"] {
+    accent-color: #1f7a54;
+    font-size: 15px;
+    margin-top: 32px;
+    font-family: "Quicksand", sans-serif;
+    margin-left: 32px;
+    margin-bottom: 6px;
+}
+
+.district {
+    top: 190px;
+    left: 300px;
+    width: 20px;
+    height: 24px;
+    text-align: left;
+    font: normal normal normal 24px/17px icon;
+    letter-spacing: 0px;
+    accent-color: #1f7a54;
+    opacity: 1;
+    font-size: 16px;
+    margin-left: 28px;
+    margin-top: 32px;
+    font-family: "Quicksand", sans-serif;
+}
+.forgot {
+    font-size: 14px;
+    margin-left: 300px;
+    color: #1f7a54;
+    font-family: "Quicksand", sans-serif;
+}
+.school {
+    top: 400px;
+    left: 413px;
+    width: 20px;
+    height: 24px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 24px/17px icon;
+    letter-spacing: 0px;
+    accent-color: #1f7a54;
+    opacity: 1;
+    margin-left: 25px;
+    font-size: 16px;
+    margin-top: 40px;
+    font-family: "Quicksand", sans-serif;
+}
+.main input[type="submit"] {
+    width: 215.51px;
+    border: transparent;
+    height: 40px;
+    left: 404px;
+    background: #3fd28b 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003d;
+    font-size: 15px;
+    display: block;
+    margin-top: 32px;
+    margin-bottom: 6px;
+    margin-left: 136px;
+    font-family: "Quicksand", sans-serif;
+}
+.nav{
+    display: inline;
+    text-align: center;
+    margin-left: 180px;
+}
+.contactus {
+    border-bottom: none;
+    border-top: none;
+    border-right-color: #666;
+    border-right: 1px;
+    color: #3fd28b;
+    background: transparent;
+}
+.aboutus {
+    border: none;
+    text-align: center;
+    margin-top: 50px;
+    border-left: 5px #666;
+    color: #3fd28b;
+    background: transparent;
+}
+.border {
+    border-bottom: 2px solid #eeeeee;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.footer {
+    top: 20px;
+    left: 0px;
+    width: 100%;
+    height: 40px;
+    background: #e0e1e1 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 758px;
+    border: transparent;
+    display: inline;
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #E0E1E1;
+}
+.foot {
+    border-left:white 20px;
+    display: inline;
+}
+.kk {
+    display: inline;
+    height: 40px;
+    width: 100%;
+    align-items: center;
+    margin:auto;
+    color: #616161;
+}
+.fut {
+    margin-right: 32px;
+    margin-left: 35%;
+    margin-top:10px;
+}
