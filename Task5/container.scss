@@ -1,0 +1,50 @@
+.container{
+    display:grid;
+    border-top-color: red;
+    grid-template-columns: 725px 725px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 24px;
+    justify-content: center;
+    font-family: $font;
+    .cont1{
+        @include cont();
+    }
+    .img1{
+        @include imgcont();
+    }
+    .cont2{
+        @include cont();
+    }
+    .img2{
+        @include imgcont();
+    }
+    .cont3{
+        @include cont();
+       
+    }
+    .img3{
+        @include imgcont();
+    }
+    
+    .cont4{
+        @include cont();
+    }
+    .img4{
+        @include imgcont();
+    }
+    .con{
+        @include cons();
+        @include ps();          
+    }
+    .fav{
+        @include favs();
+    }
+    .fut{
+        @include futs();
+    }
+    .f1{
+        margin-top:25px;
+        margin-right: 3px;
+        opacity: 0.3;
+    }
+}
