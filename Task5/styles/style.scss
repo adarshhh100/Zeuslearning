@@ -1,0 +1,199 @@
+@import './var';
+@import './mixins.scss';
+@import './head.scss';
+@import './premain.scss';
+@import './premain1.scss';
+@import './container.scss';
+@import './nav2.scss';
+@import './footer.scss';
+@mixin select{
+    border-top : none;
+    border-left : none;
+    border-right : none;
+    border-bottom-color:rgb(177, 165, 165);
+    border-bottom-width: 2px;
+    width:200px;
+    height:25px;
+    font-size:large;
+    color:black;
+    font-weight: bold;
+    font-family: $font;
+}
+@mixin futs{
+    display:flex;
+    background-color:white;
+    width: 725px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    justify-content: space-around;
+    padding-top :15px;
+    padding-bottom: 3px;
+    border-style: solid;
+    border-bottom : none;
+    border-left : none;
+    border-right : none;
+    border-top-color:rgb(201, 200, 200);
+    border-top-width: 2px;
+    
+}
+$blackcolor:black;
+$backgroundcolor:#EEEEEE;
+$textcolor:#3FD28B;
+$font:"Quicksand", sans-serif;
+$text2color:#686868;
+body {
+    margin :0;
+    padding:0;
+    width:100%;
+    box-sizing: border-box;
+    background-color: $backgroundcolor;
+    font-family: $font;
+    font-weight: bolder;
+
+}
+.logo{
+    position: absolute;
+    margin-bottom:0px;
+    opacity: 1;
+    top:10px;
+    left: 30px;
+    cursor: pointer;
+}
+.hd{
+    color: $blackcolor;
+    margin-top: 24px;
+}
+.e{
+    width:25px;
+    height:25px;
+}
+.e1{
+    width:25px;
+    height:25px;
+    opacity: 0.5;
+}
+.premain1{
+    display: flex;
+    justify-content: space-between;
+    margin:24px;
+    margin-bottom: 0px;
+    height:54px;
+    background-color:#EEEEEE;
+    font-family: $font;
+    align-items: center;
+    .t1{
+        color: $text2color;
+    }
+    .t2{
+        color: $text2color;
+        .option1{
+            width: 300px;
+            font-family: "Quicksand", sans-serif;
+            border-top : none;
+            border-left : none;
+            border-right : none;
+            border-bottom-color:rgb(198, 185, 185);
+            border-bottom-width: 2px;
+            font-weight: bolder; 
+            background-color: #EEEEEE;      
+        }
+        option{
+            font-weight: bolder;
+            color: black;
+            background-color: #EEEEEE;     
+        }
+        .arrow{
+            margin-left: 20px;
+        }
+    }
+}
+.container{
+    display:grid;
+    padding:16px;
+    margin-top: -5px;
+    border-style: solid;
+    border-top-color: rgb(201, 193, 193);
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-left: 24px;
+    margin-right: 24px;
+    grid-template-columns: 725px 725px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 24px;
+    justify-content: center;
+    font-family: $font;
+    .cont1{
+        @include cont();
+    }
+    .img1{
+        @include imgcont();
+    }
+    .cont2{
+        @include cont();
+    }
+    .img2{
+        @include imgcont();
+    }
+    .cont3{
+        @include cont();
+       
+    }
+    .img3{
+        @include imgcont();
+    }
+    
+    .cont4{
+        @include cont();
+    }
+    .img4{
+        @include imgcont();
+    }
+    .con{
+        @include cons();
+        @include ps();          
+    }
+    .fav{
+        @include favs();
+    }
+    .fut{
+        @include futs();
+    }
+    .f1{
+        margin-top:25px;
+        margin-right: 3px;
+        opacity: 0.3;
+    }
+}
+.foot{
+    background-color: #E0E1E1;
+    height: 50px;
+    width:100%;
+    left:0px;
+    .ftt{
+        display: flex;
+        justify-content: center
+    }
+    .lastline{
+        display: inline;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color:#666666;
+    }
+    .i{
+        margin-top: 20px;
+        margin-left:20px ;
+        margin-right:0px;
+    }
+}
+.a{
+    @include select();
+}
+#b{
+    margin-top: -10px;
+}
+
+

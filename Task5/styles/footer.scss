@@ -1,0 +1,23 @@
+.foot{
+    background-color: #E0E1E1;
+    height: 50px;
+    width:100%;
+    left:0px;
+    .ftt{
+        display: flex;
+        justify-content: center
+    }
+    .lastline{
+        display: inline;
+        margin-top: 20px;
+        margin-left: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        color:#666666;
+    }
+    .i{
+        margin-top: 20px;
+        margin-left:20px ;
+        margin-right:0px;
+    }
+}
