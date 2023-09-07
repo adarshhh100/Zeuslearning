@@ -1,0 +1,36 @@
+{
+    "navLinks": {"DASHBOARD":"<li><a href='.' >DASHBOARD</a></li>",
+                "CONTENTS":"<li><a href='.'' >CONTENTS</a></li>",
+                "USERS":"<li><a href='.'' >USERS</a></li>",
+                "REPORTS":"<li><a href='.'' >REPORTS</a></li>",
+                "ADMIN":"<li><a href='.'' >CONTENTS</a></li>"
+    }
+
+    ,
+    "alerts": {
+        "text1": "License for induction to Algebra has been assigned to your school",
+        "text2": "Lesson 3 Practice worksheet overdue for Amy Santiago",
+        "text3": "23 New students created",
+        "text4": "15 submissions ready for evaluation"
+    }
+    ,
+    "announcement": {
+        "text1":"No classes will be held on 21st Nov",
+        "text2":"Guest lectures on geometry on 20 September",
+        "text3":"Additional course material available on request",
+        "text4":"No classes will be held on 25th December"
+    }
+    ,
+    "account": {
+        "text1":""
+    }
+    ,
+    "dropbtn": {
+        "DASHBOARD":"<li><a href='#' >DASHBOARD</a></li>",
+        "CONTENTS":"<li><a href='#' >CONTENTS</a></li>",
+        "COURSE CATALOG":"<li><a href='#'> COURSE CATALOG</a></li>",
+        "USERS":"<li><a href='#'' >USERS</a></li>",
+        "REPORTS":"<li><a href='#'' >REPORTS</a></li>",
+        "ADMIN":"<li><a href='#'' >CONTENTS</a></li>"
+    }
+}
